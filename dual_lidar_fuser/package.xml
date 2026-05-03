@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dual_lidar_fuser</name>
+  <version>0.0.1</version>
+  <description>Fuse left and right lidar PointCloud2 into one cloud in a target frame.</description>
+
+  <maintainer email="nvidia@example.com">nvidia</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>message_filters</depend>
+  <build_depend>libpcl-all-dev</build_depend>
+  <exec_depend>libpcl-all-dev</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,24 @@
+dual_lidar_fuser:
+  ros__parameters:
+    left_topic: /livox/lidar_192_168_1_124
+    right_topic: /livox/lidar_192_168_1_177
+    fused_topic: /livox/multi_lidar_points
+    # This node is a multi-lidar mux, not a virtual single-lidar fuser:
+    # it does not TF-transform the right cloud into the left cloud frame.
+    # It annotates each point with lidar_id and preserves each point timestamp.
+    left_source_frame: front_mid360
+    right_source_frame: back_mid360
+    # Leave empty for Point-LIO input: each output message keeps its real source frame.
+    # Left messages are front_mid360; right messages are back_mid360.
+    output_frame_id: ""
+    left_lidar_id: 0
+    right_lidar_id: 1
+    # Small temporal mux delay keeps output header stamps monotonic without
+    # forcing left/right clouds into paired frames.
+    #reorder_wait_sec: 0.0
+    #queue_size: 32
+    #drop_zero_points: true
+    #output_reliable: false
+    #output_queue_size: 4
+    #zero_epsilon: 1.0e-06
+    #use_sim_time: false

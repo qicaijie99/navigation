@@ -1,0 +1,11 @@
+dual_lidar_fuser:
+  ros__parameters:
+    left_topic: /left/livox/lidar/pointcloud
+    right_topic: /right/livox/lidar/pointcloud
+    fused_topic: /livox/fused_cloud
+    target_frame: front_mid360
+    publish_rate_hz: 20.0
+    max_input_age_sec: 0.5
+    tf_timeout_sec: 0.05
+    zero_epsilon: 1.0e-06
+    use_sim_time: false
