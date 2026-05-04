@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sentry_msgs/msg/RobotHP.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sentry_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains robot HP data received from the referee system")
+    struct RobotHP {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "red team")
+      uint16 red_1_hero_hp;
+
+      uint16 red_2_engineer_hp;
+
+      uint16 red_3_infantry_hp;
+
+      uint16 red_4_infantry_hp;
+
+      uint16 red_5_infantry_hp;
+
+      uint16 red_7_sentry_hp;
+
+      uint16 red_outpost_hp;
+
+      uint16 red_base_hp;
+
+      @verbatim (language="comment", text=
+        "blue team")
+      uint16 blue_1_hero_hp;
+
+      uint16 blue_2_engineer_hp;
+
+      uint16 blue_3_infantry_hp;
+
+      uint16 blue_4_infantry_hp;
+
+      uint16 blue_5_infantry_hp;
+
+      uint16 blue_7_sentry_hp;
+
+      uint16 blue_outpost_hp;
+
+      uint16 blue_base_hp;
+    };
+  };
+};

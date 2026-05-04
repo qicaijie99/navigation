@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: udp-bridge
+Version: 0.0.1
+Summary: UDP bridge node for selected ROS topics.
+Maintainer: nuc02
+Maintainer-email: nuc02@example.com
+License: MIT

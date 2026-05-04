@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>imu_record</name>
+  <version>0.0.0</version>
+  <description>This pkg and node is to record imu accleration and to calculate the average and then generate an a-t figure.
+  <pre><font color="#26A269"><b>nvidia@nvidia-desktop</b></font>:<font color="#12488B"><b>~/navi/ros_ws/src</b></font>$ ros2 pkg list | grep imu
+<font color="#26A269"><b>nvidia@nvidia-desktop</b></font>:<font color="#12488B"><b>~/navi/ros_ws/src</b></font>$ ros2 pkg create -\
+-description &quot;This pkg and node is to record imu accleration and to calculate the average and then generate an a-t figure.&quot; -\
+-build-type ament_python -\
+-node-name imu_record imu_record
+going to create a new package
+package name: imu_record
+destination directory: /home/nvidia/navi/ros_ws/src
+package format: 3
+version: 0.0.0
+description: This pkg and node is to record imu accleration and to calculate the average and then generate an a-t figure.
+maintainer: [&apos;nvidia &lt;2664859383@qq.com&gt;&apos;]
+licenses: [&apos;TODO: License declaration&apos;]
+build type: ament_python
+dependencies: []
+node_name: imu_record
+creating folder ./imu_record
+creating ./imu_record/package.xml
+creating source folder
+creating folder ./imu_record/imu_record
+creating ./imu_record/setup.py
+creating ./imu_record/setup.cfg
+creating folder ./imu_record/resource
+creating ./imu_record/resource/imu_record
+creating ./imu_record/imu_record/__init__.py
+creating folder ./imu_record/test
+creating ./imu_record/test/test_copyright.py
+creating ./imu_record/test/test_flake8.py
+creating ./imu_record/test/test_pep257.py
+creating ./imu_record/imu_record/imu_record.py
+
+[WARNING]: Unknown license &apos;TODO: License declaration&apos;.  This has been set in the package.xml, but no LICENSE file has been created.
+It is recommended to use one of the ament license identitifers:
+Apache-2.0
+BSL-1.0
+BSD-2.0
+BSD-2-Clause
+BSD-3-Clause
+GPL-3.0-only
+LGPL-3.0-only
+MIT
+MIT-0
+<font color="#26A269"><b>nvidia@nvidia-desktop</b></font>:<font color="#12488B"><b>~/navi/ros_ws/src</b></font>$</pre></description>
+  <maintainer email="2664859383@qq.com">nvidia</maintainer>
+  <license>TODO: License declaration</license>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+<!--
+nvidia@nvidia-desktop:~/navi/ros_ws/src$ ros2 pkg list | grep imu
+nvidia@nvidia-desktop:~/navi/ros_ws/src$ ros2 pkg create -\
+-description "This pkg and node is to record imu accleration and to calculate the average and then generate an a-t figure." -\
+-build-type ament_python -\
+-node-name imu_record imu_record
+going to create a new package
+package name: imu_record
+destination directory: /home/nvidia/navi/ros_ws/src
+package format: 3
+version: 0.0.0
+description: This pkg and node is to record imu accleration and to calculate the average and then generate an a-t figure.
+maintainer: ['nvidia <2664859383@qq.com>']
+licenses: ['TODO: License declaration']
+build type: ament_python
+dependencies: []
+node_name: imu_record
+creating folder ./imu_record
+creating ./imu_record/package.xml
+creating source folder
+creating folder ./imu_record/imu_record
+creating ./imu_record/setup.py
+creating ./imu_record/setup.cfg
+creating folder ./imu_record/resource
+creating ./imu_record/resource/imu_record
+creating ./imu_record/imu_record/__init__.py
+creating folder ./imu_record/test
+creating ./imu_record/test/test_copyright.py
+creating ./imu_record/test/test_flake8.py
+creating ./imu_record/test/test_pep257.py
+creating ./imu_record/imu_record/imu_record.py
+
+[WARNING]: Unknown license 'TODO: License declaration'.  This has been set in the package.xml, but no LICENSE file has been created.
+It is recommended to use one of the ament license identitifers:
+Apache-2.0
+BSL-1.0
+BSD-2.0
+BSD-2-Clause
+BSD-3-Clause
+GPL-3.0-only
+LGPL-3.0-only
+MIT
+MIT-0
+nvidia@nvidia-desktop:~/navi/ros_ws/src$ 
+-->

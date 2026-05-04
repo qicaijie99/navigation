@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sentry_msgs/msg/BulletRemaining.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sentry_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains bullet remaining data received from the referee system")
+    struct BulletRemaining {
+      std_msgs::msg::Header header;
+
+      uint16 remaining_17mm_num;
+
+      uint16 remaining_42mm_num;
+
+      uint16 remaining_coin_num;
+    };
+  };
+};

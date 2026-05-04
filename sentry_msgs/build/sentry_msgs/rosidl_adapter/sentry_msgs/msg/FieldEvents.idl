@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sentry_msgs/msg/FieldEvents.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sentry_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains field events data received from the referee system")
+    struct FieldEvents {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "supply station occupation status")
+      boolean supplier_1_occupation;
+
+      boolean supplier_2_occupation;
+
+      boolean supplier_3_occupation;
+
+      @verbatim (language="comment", text=
+        "power rune status")
+      boolean power_rune_activation_point_occupation;
+
+      boolean small_power_rune_activation_status;
+
+      boolean big_power_rune_activation_status;
+
+      @verbatim (language="comment", text=
+        "trapezoid-shaped elevated ground status")
+      boolean r2b2_ground_occupation;
+
+      boolean r3b3_ground_occupation;
+
+      boolean r4b4_ground_occupation;
+
+      @verbatim (language="comment", text=
+        "shield status of base")
+      boolean base_has_shield;
+
+      @verbatim (language="comment", text=
+        "outpost status")
+      boolean outpost_alive;
+    };
+  };
+};

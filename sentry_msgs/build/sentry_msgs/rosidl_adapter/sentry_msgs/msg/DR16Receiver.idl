@@ -1,0 +1,86 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sentry_msgs/msg/DR16Receiver.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sentry_msgs {
+  module msg {
+    module DR16Receiver_Constants {
+      @verbatim (language="comment", text=
+        "switch state definition")
+      const uint8 SW_UP = 1;
+      const uint8 SW_DOWN = 2;
+      const uint8 SW_MID = 3;
+    };
+    @verbatim (language="comment", text=
+      "This message contains data received by the DJI DR16 receiver")
+    struct DR16Receiver {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "joysticks")
+      float ch_left_x;
+
+      float ch_left_y;
+
+      float ch_right_x;
+
+      float ch_right_y;
+
+      float ch_wheel;
+
+      @verbatim (language="comment", text=
+        "switch")
+      uint8 sw_left;
+
+      uint8 sw_right;
+
+      @verbatim (language="comment", text=
+        "mouse")
+      float mouse_x;
+
+      float mouse_y;
+
+      float mouse_z;
+
+      boolean mouse_press_l;
+
+      boolean mouse_press_r;
+
+      @verbatim (language="comment", text=
+        "key board")
+      boolean key_w;
+
+      boolean key_s;
+
+      boolean key_a;
+
+      boolean key_d;
+
+      boolean key_shift;
+
+      boolean key_ctrl;
+
+      boolean key_q;
+
+      boolean key_e;
+
+      boolean key_r;
+
+      boolean key_f;
+
+      boolean key_g;
+
+      boolean key_z;
+
+      boolean key_x;
+
+      boolean key_c;
+
+      boolean key_v;
+
+      boolean key_b;
+    };
+  };
+};

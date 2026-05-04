@@ -49,6 +49,7 @@ namespace small_point_lio {
         double match_sqaured;
 
         bool publish_odometry_without_downsample = false;
+        bool publish_primary_lidar_pose = false;
 
         void read_parameters(rclcpp::Node &node);
     };

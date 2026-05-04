@@ -1,0 +1,707 @@
+[0.007s] Invoking command in '/home/nuc1/contact/sentry_msgs/build/sentry_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nuc1/contact/sentry_msgs -DCMAKE_INSTALL_PREFIX=/home/nuc1/contact/sentry_msgs/install/sentry_msgs
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting C compiler ABI info
+[0.154s] -- Detecting C compiler ABI info - done
+[0.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.159s] -- Detecting C compile features
+[0.159s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.218s] -- Detecting CXX compiler ABI info - done
+[0.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.223s] -- Detecting CXX compile features
+[0.223s] -- Detecting CXX compile features - done
+[0.225s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.334s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.394s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.417s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.420s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.462s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.468s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.753s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.020s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.147s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.148s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.200s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.200s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.200s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.200s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.216s] -- Found PythonExtra: .so  
+[1.251s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.256s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.256s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nuc1/contact/sentry_msgs/build/sentry_msgs/rosidl_generator_c>;$<BUILD_INTERFACE:/home/nuc1/contact/sentry_msgs/build/sentry_msgs/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/nuc1/contact/sentry_msgs/build/sentry_msgs/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/nuc1/contact/sentry_msgs/build/sentry_msgs/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/nuc1/contact/sentry_msgs/build/sentry_msgs/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/nuc1/contact/sentry_msgs/build/sentry_msgs/rosidl_typesupport_introspection_cpp>;/home/nuc1/contact/sentry_msgs/build/sentry_msgs/rosidl_generator_c;/home/nuc1/contact/sentry_msgs/build/sentry_msgs/rosidl_generator_py
+[1.256s] -- Configured cppcheck exclude dirs and/or files: 
+[1.261s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.261s] -- Configured cpplint exclude dirs and/or files: 
+[1.262s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.263s] -- Added test 'lint_cmake' to check CMake code style
+[1.264s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.268s] -- Added test 'uncrustify' to check C / C++ code style
+[1.268s] -- Configured uncrustify additional arguments: 
+[1.269s] -- Added test 'xmllint' to check XML markup files
+[1.272s] -- Configuring done
+[1.312s] -- Generating done
+[1.314s] -- Build files have been written to: /home/nuc1/contact/sentry_msgs/build/sentry_msgs
+[1.320s] Invoked command in '/home/nuc1/contact/sentry_msgs/build/sentry_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nuc1/contact/sentry_msgs -DCMAKE_INSTALL_PREFIX=/home/nuc1/contact/sentry_msgs/install/sentry_msgs
+[1.321s] Invoking command in '/home/nuc1/contact/sentry_msgs/build/sentry_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nuc1/contact/sentry_msgs/build/sentry_msgs -- -j8 -l8
+[1.353s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.360s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.365s] [  0%] Built target ament_cmake_python_copy_sentry_msgs
+[1.542s] running egg_info
+[1.542s] creating sentry_msgs.egg-info
+[1.542s] writing sentry_msgs.egg-info/PKG-INFO
+[1.542s] writing dependency_links to sentry_msgs.egg-info/dependency_links.txt
+[1.542s] writing top-level names to sentry_msgs.egg-info/top_level.txt
+[1.542s] writing manifest file 'sentry_msgs.egg-info/SOURCES.txt'
+[1.544s] reading manifest file 'sentry_msgs.egg-info/SOURCES.txt'
+[1.544s] writing manifest file 'sentry_msgs.egg-info/SOURCES.txt'
+[1.563s] [  0%] Built target ament_cmake_python_build_sentry_msgs_egg
+[3.017s] [  1%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/dr16_receiver__functions.c.o[0m
+[3.017s] [  2%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/game_status__functions.c.o[0m
+[3.018s] [  2%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/game_result__functions.c.o[0m
+[3.020s] [  3%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/robot_hp__functions.c.o[0m
+[3.022s] [  4%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/field_events__functions.c.o[0m
+[3.025s] [  4%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/robot_status__functions.c.o[0m
+[3.033s] [  5%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/robot_position__functions.c.o[0m
+[3.071s] [  5%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/robot_buff__functions.c.o[0m
+[3.072s] [  6%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/bullet_remaining__functions.c.o[0m
+[3.075s] [  7%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/client_command__functions.c.o[0m
+[3.080s] [  7%] Built target sentry_msgs__cpp
+[3.080s] [  7%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/client_receive__functions.c.o[0m
+[3.081s] [  8%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/dual_loop_pid_with_filter__functions.c.o[0m
+[3.087s] [  8%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/dual_loop_pid__functions.c.o[0m
+[3.088s] [  9%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/shoot_data__functions.c.o[0m
+[3.089s] [ 10%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/msg/detail/auto_aim__functions.c.o[0m
+[3.120s] [ 10%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/srv/detail/vision_mode_switch__functions.c.o[0m
+[3.125s] [ 11%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_c.dir/rosidl_generator_c/sentry_msgs/srv/detail/reset_motor_position__functions.c.o[0m
+[3.131s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.137s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.142s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.185s] [ 14%] [32m[1mLinking C shared library libsentry_msgs__rosidl_generator_c.so[0m
+[3.213s] [ 14%] Built target sentry_msgs__rosidl_generator_c
+[3.221s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.224s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.224s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.712s] [ 18%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/game_status__type_support.cpp.o[0m
+[4.712s] [ 18%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/dr16_receiver__type_support.cpp.o[0m
+[4.719s] [ 19%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/game_result__type_support.cpp.o[0m
+[4.888s] [ 20%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/dr16_receiver__type_support.cpp.o[0m
+[5.177s] [ 20%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/field_events__type_support.cpp.o[0m
+[5.178s] [ 21%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/robot_hp__type_support.cpp.o[0m
+[5.183s] [ 21%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/game_status__type_support.cpp.o[0m
+[5.348s] [ 22%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/robot_status__type_support.cpp.o[0m
+[5.555s] [ 22%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/dr16_receiver__type_support.cpp.o[0m
+[5.605s] [ 23%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/game_status__type_support.cpp.o[0m
+[5.608s] [ 24%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/game_result__type_support.cpp.o[0m
+[5.630s] [ 25%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/game_result__type_support.cpp.o[0m
+[5.742s] [ 25%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/dr16_receiver__type_support.cpp.o[0m
+[5.774s] [ 26%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/game_status__type_support.cpp.o[0m
+[5.781s] [ 27%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/robot_position__type_support.cpp.o[0m
+[5.804s] [ 28%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/game_result__type_support.cpp.o[0m
+[5.836s] [ 28%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/robot_hp__type_support.cpp.o[0m
+[5.868s] [ 30%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/robot_hp__type_support.cpp.o[0m
+[5.868s] [ 30%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/field_events__type_support.cpp.o[0m
+[5.900s] [ 30%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/robot_status__type_support.cpp.o[0m
+[5.922s] [ 31%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/robot_position__type_support.cpp.o[0m
+[5.923s] [ 31%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/robot_hp__type_support.cpp.o[0m
+[5.935s] [ 32%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/field_events__type_support.cpp.o[0m
+[5.959s] [ 33%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/robot_buff__type_support.cpp.o[0m
+[5.993s] [ 33%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/bullet_remaining__type_support.cpp.o[0m
+[6.021s] [ 34%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/client_command__type_support.cpp.o[0m
+[6.035s] [ 35%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/dr16_receiver__type_support.c.o[0m
+[6.055s] [ 36%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/client_receive__type_support.cpp.o[0m
+[6.075s] [ 36%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/game_status__type_support.c.o[0m
+[6.084s] [ 36%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/auto_aim__type_support.cpp.o[0m
+[6.091s] [ 36%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/robot_buff__type_support.cpp.o[0m
+[6.115s] [ 37%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/game_result__type_support.c.o[0m
+[6.119s] [ 38%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.o[0m
+[6.152s] [ 38%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/dual_loop_pid__type_support.cpp.o[0m
+[6.152s] [ 38%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/robot_hp__type_support.c.o[0m
+[6.186s] [ 39%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/msg/shoot_data__type_support.cpp.o[0m
+[6.191s] [ 40%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/field_events__type_support.c.o[0m
+[6.219s] [ 41%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/srv/vision_mode_switch__type_support.cpp.o[0m
+[6.228s] [ 41%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_msgs/srv/reset_motor_position__type_support.cpp.o[0m
+[6.229s] [ 42%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/robot_status__type_support.c.o[0m
+[6.236s] [ 42%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/field_events__type_support.cpp.o[0m
+[6.250s] [ 43%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/robot_status__type_support.cpp.o[0m
+[6.252s] [ 44%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[6.261s] [ 45%] [32m[1mLinking CXX shared library libsentry_msgs__rosidl_typesupport_c.so[0m
+[6.266s] [ 45%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/robot_position__type_support.c.o[0m
+[6.303s] [ 46%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/robot_buff__type_support.c.o[0m
+[6.308s] [ 46%] Built target sentry_msgs__rosidl_typesupport_c
+[6.315s] [ 46%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/robot_position__type_support.cpp.o[0m
+[6.335s] [ 46%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/robot_position__type_support.cpp.o[0m
+[6.343s] [ 47%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/bullet_remaining__type_support.c.o[0m
+[6.378s] [ 47%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/client_command__type_support.c.o[0m
+[6.396s] [ 47%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/dr16_receiver__type_support_c.cpp.o[0m
+[6.417s] [ 48%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/client_receive__type_support.c.o[0m
+[6.459s] [ 49%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/auto_aim__type_support.c.o[0m
+[6.495s] [ 49%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.o[0m
+[6.535s] [ 50%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/dual_loop_pid__type_support.c.o[0m
+[6.539s] [ 51%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/bullet_remaining__type_support.cpp.o[0m
+[6.549s] [ 51%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/client_command__type_support.cpp.o[0m
+[6.573s] [ 51%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/msg/detail/shoot_data__type_support.c.o[0m
+[6.610s] [ 52%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/srv/detail/vision_mode_switch__type_support.c.o[0m
+[6.640s] [ 53%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/robot_buff__type_support.cpp.o[0m
+[6.649s] [ 54%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_msgs/srv/detail/reset_motor_position__type_support.c.o[0m
+[6.690s] [ 54%] [32m[1mLinking C shared library libsentry_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.698s] [ 55%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/game_status__type_support_c.cpp.o[0m
+[6.728s] [ 55%] Built target sentry_msgs__rosidl_typesupport_introspection_c
+[6.728s] [ 56%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/client_receive__type_support.cpp.o[0m
+[6.737s] [ 57%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/robot_buff__type_support.cpp.o[0m
+[6.779s] [ 58%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/auto_aim__type_support.cpp.o[0m
+[6.806s] [ 59%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/bullet_remaining__type_support.cpp.o[0m
+[6.949s] [ 60%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/bullet_remaining__type_support.cpp.o[0m
+[6.979s] [ 61%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/game_result__type_support_c.cpp.o[0m
+[6.994s] [ 61%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/client_command__type_support.cpp.o[0m
+[7.086s] [ 62%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/client_receive__type_support.cpp.o[0m
+[7.171s] [ 62%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/robot_hp__type_support_c.cpp.o[0m
+[7.204s] [ 62%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/dual_loop_pid_with_filter__type_support.cpp.o[0m
+[7.222s] [ 62%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/client_command__type_support.cpp.o[0m
+[7.276s] [ 63%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/dual_loop_pid__type_support.cpp.o[0m
+[7.287s] [ 64%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/field_events__type_support_c.cpp.o[0m
+[7.394s] [ 65%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/msg/detail/shoot_data__type_support.cpp.o[0m
+[7.526s] [ 65%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/srv/detail/vision_mode_switch__type_support.cpp.o[0m
+[7.542s] [ 66%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/client_receive__type_support.cpp.o[0m
+[7.565s] [ 67%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/auto_aim__type_support.cpp.o[0m
+[7.583s] [ 68%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_msgs/srv/detail/reset_motor_position__type_support.cpp.o[0m
+[7.654s] [ 69%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/robot_status__type_support_c.cpp.o[0m
+[7.679s] [ 69%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/auto_aim__type_support.cpp.o[0m
+[7.725s] [ 69%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/robot_position__type_support_c.cpp.o[0m
+[7.834s] [ 69%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/dual_loop_pid_with_filter__type_support.cpp.o[0m
+[7.855s] [ 70%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/dual_loop_pid__type_support.cpp.o[0m
+[7.961s] [ 71%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.o[0m
+[7.982s] [ 71%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/msg/detail/dds_fastrtps/shoot_data__type_support.cpp.o[0m
+[8.018s] [ 72%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/robot_buff__type_support_c.cpp.o[0m
+[8.036s] [ 73%] [32m[1mLinking CXX shared library libsentry_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.051s] [ 74%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/dual_loop_pid__type_support.cpp.o[0m
+[8.116s] [ 75%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/srv/detail/dds_fastrtps/vision_mode_switch__type_support.cpp.o[0m
+[8.124s] [ 75%] Built target sentry_msgs__rosidl_typesupport_introspection_cpp
+[8.134s] [ 75%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/bullet_remaining__type_support_c.cpp.o[0m
+[8.274s] [ 76%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_msgs/srv/detail/dds_fastrtps/reset_motor_position__type_support.cpp.o[0m
+[8.310s] [ 77%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/client_command__type_support_c.cpp.o[0m
+[8.339s] [ 78%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/client_receive__type_support_c.cpp.o[0m
+[8.353s] [ 78%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/msg/shoot_data__type_support.cpp.o[0m
+[8.406s] [ 79%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/srv/vision_mode_switch__type_support.cpp.o[0m
+[8.434s] [ 80%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_msgs/srv/reset_motor_position__type_support.cpp.o[0m
+[8.528s] [ 80%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/auto_aim__type_support_c.cpp.o[0m
+[8.585s] [ 81%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/dual_loop_pid_with_filter__type_support_c.cpp.o[0m
+[8.661s] [ 82%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/dual_loop_pid__type_support_c.cpp.o[0m
+[8.691s] [ 82%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/msg/detail/shoot_data__type_support_c.cpp.o[0m
+[8.709s] [ 83%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/srv/detail/vision_mode_switch__type_support_c.cpp.o[0m
+[8.728s] [ 84%] [32mBuilding CXX object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_msgs/srv/detail/reset_motor_position__type_support_c.cpp.o[0m
+[8.738s] [ 84%] [32m[1mLinking CXX shared library libsentry_msgs__rosidl_typesupport_cpp.so[0m
+[8.742s] [ 84%] [32m[1mLinking CXX shared library libsentry_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.790s] [ 84%] Built target sentry_msgs__rosidl_typesupport_cpp
+[8.847s] [ 84%] Built target sentry_msgs__rosidl_typesupport_fastrtps_cpp
+[9.031s] [ 84%] [32m[1mLinking CXX shared library libsentry_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.088s] [ 84%] Built target sentry_msgs__rosidl_typesupport_fastrtps_c
+[9.102s] [ 84%] Built target sentry_msgs
+[9.118s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.920s] [ 85%] Built target sentry_msgs__py
+[11.936s] [ 87%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_dr16_receiver_s.c.o[0m
+[11.937s] [ 88%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_game_result_s.c.o[0m
+[11.937s] [ 88%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_field_events_s.c.o[0m
+[11.937s] [ 88%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_robot_status_s.c.o[0m
+[11.937s] [ 88%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_game_status_s.c.o[0m
+[11.937s] [ 87%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_robot_hp_s.c.o[0m
+[11.938s] [ 89%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_robot_position_s.c.o[0m
+[11.938s] [ 90%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_robot_buff_s.c.o[0m
+[12.060s] [ 90%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_bullet_remaining_s.c.o[0m
+[12.060s] [ 91%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_client_command_s.c.o[0m
+[12.060s] [ 91%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_auto_aim_s.c.o[0m
+[12.060s] [ 92%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_client_receive_s.c.o[0m
+[12.064s] [ 93%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_dual_loop_pid_with_filter_s.c.o[0m
+[12.068s] [ 94%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_dual_loop_pid_s.c.o[0m
+[12.069s] [ 94%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_shoot_data_s.c.o[0m
+[12.080s] [ 95%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/srv/_vision_mode_switch_s.c.o[0m
+[12.178s] [ 95%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/srv/_reset_motor_position_s.c.o[0m
+[12.248s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/sentry_msgs/libsentry_msgs__rosidl_generator_py.so[0m
+[12.286s] [ 96%] Built target sentry_msgs__rosidl_generator_py
+[12.300s] [ 99%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sentry_msgs/_sentry_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.300s] [ 99%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sentry_msgs/_sentry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.300s] [ 99%] [32mBuilding C object CMakeFiles/sentry_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sentry_msgs/_sentry_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.407s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sentry_msgs/sentry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.435s] [100%] Built target sentry_msgs__rosidl_typesupport_introspection_c__pyext
+[12.443s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sentry_msgs/sentry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.443s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sentry_msgs/sentry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.469s] [100%] Built target sentry_msgs__rosidl_typesupport_c__pyext
+[12.470s] [100%] Built target sentry_msgs__rosidl_typesupport_fastrtps_c__pyext
+[12.478s] Invoked command in '/home/nuc1/contact/sentry_msgs/build/sentry_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nuc1/contact/sentry_msgs/build/sentry_msgs -- -j8 -l8
+[12.703s] Invoking command in '/home/nuc1/contact/sentry_msgs/build/sentry_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nuc1/contact/sentry_msgs/build/sentry_msgs
+[12.709s] -- Install configuration: ""
+[12.709s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/ament_index/resource_index/rosidl_interfaces/sentry_msgs
+[12.709s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs
+[12.709s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv
+[12.709s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/vision_mode_switch.h
+[12.709s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/reset_motor_position.h
+[12.709s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail
+[12.709s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__functions.h
+[12.709s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__type_support.h
+[12.709s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__struct.h
+[12.709s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__type_support.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__struct.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__functions.c
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__functions.c
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__functions.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/auto_aim.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/robot_buff.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/client_receive.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/game_result.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/shoot_data.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/client_command.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/dual_loop_pid.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/bullet_remaining.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/dual_loop_pid_with_filter.h
+[12.710s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/game_status.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/robot_hp.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/field_events.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/robot_status.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/robot_position.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__struct.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__functions.c
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__type_support.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__functions.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__type_support.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__functions.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__functions.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__struct.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__functions.c
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__functions.c
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__functions.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__functions.h
+[12.711s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__type_support.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__functions.c
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__type_support.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__type_support.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__functions.c
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__functions.c
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__functions.c
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__functions.c
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__functions.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__type_support.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__functions.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__struct.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__functions.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__struct.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__struct.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__type_support.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__functions.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__type_support.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__struct.h
+[12.712s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__functions.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__struct.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__type_support.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__struct.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__struct.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__functions.c
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__struct.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__functions.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__type_support.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__functions.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__functions.c
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__struct.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__struct.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__type_support.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__struct.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__functions.c
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__functions.c
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__struct.h
+[12.713s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__functions.h
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__functions.h
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__functions.c
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__struct.h
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__functions.h
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__type_support.h
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__functions.c
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__type_support.h
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__type_support.h
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__type_support.h
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__functions.c
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/dr16_receiver.h
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/environment/library_path.sh
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/environment/library_path.dsv
+[12.714s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_generator_c.so
+[12.714s] -- Set runtime path of "/home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_generator_c.so" to ""
+[12.714s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs
+[12.714s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv
+[12.715s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__rosidl_typesupport_fastrtps_c.h
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_fastrtps_c.h
+[12.715s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.715s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__rosidl_typesupport_fastrtps_c.h
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__rosidl_typesupport_fastrtps_c.h
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__rosidl_typesupport_fastrtps_c.h
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__rosidl_typesupport_fastrtps_c.h
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__rosidl_typesupport_fastrtps_c.h
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__rosidl_typesupport_fastrtps_c.h
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__rosidl_typesupport_fastrtps_c.h
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__rosidl_typesupport_fastrtps_c.h
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__rosidl_typesupport_fastrtps_c.h
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__rosidl_typesupport_fastrtps_c.h
+[12.715s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_fastrtps_c.h
+[12.716s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__rosidl_typesupport_fastrtps_c.h
+[12.716s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[12.716s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__rosidl_typesupport_fastrtps_c.h
+[12.716s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__rosidl_typesupport_fastrtps_c.h
+[12.716s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_fastrtps_c.so
+[12.716s] -- Set runtime path of "/home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[12.716s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs
+[12.716s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv
+[12.716s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/vision_mode_switch.hpp
+[12.716s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/reset_motor_position.hpp
+[12.716s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail
+[12.716s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__struct.hpp
+[12.716s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__builder.hpp
+[12.716s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__traits.hpp
+[12.716s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__builder.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__traits.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__struct.hpp
+[12.717s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/bullet_remaining.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/robot_position.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/dual_loop_pid.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/dr16_receiver.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/shoot_data.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/game_result.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/client_command.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/field_events.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/game_status.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/robot_hp.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/robot_buff.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/robot_status.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/auto_aim.hpp
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/dual_loop_pid_with_filter.hpp
+[12.717s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail
+[12.717s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__struct.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__struct.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__struct.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__struct.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__traits.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__struct.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__struct.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__traits.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__struct.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__traits.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__builder.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__builder.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__struct.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__struct.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__builder.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__struct.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__builder.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__builder.hpp
+[12.718s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__builder.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__struct.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__builder.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__traits.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__builder.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__builder.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__traits.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__traits.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__builder.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__builder.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__struct.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__struct.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__traits.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__traits.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__builder.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__traits.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__traits.hpp
+[12.719s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__builder.hpp
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__traits.hpp
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__traits.hpp
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__builder.hpp
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__traits.hpp
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__traits.hpp
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__builder.hpp
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__struct.hpp
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__traits.hpp
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__struct.hpp
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/client_receive.hpp
+[12.720s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs
+[12.720s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv
+[12.720s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__rosidl_typesupport_fastrtps_cpp.hpp
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_fastrtps_cpp.hpp
+[12.720s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/dds_fastrtps
+[12.720s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg
+[12.721s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dds_fastrtps
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__rosidl_typesupport_fastrtps_cpp.hpp
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.721s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.722s] -- Set runtime path of "/home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.722s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs
+[12.722s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv
+[12.722s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail
+[12.722s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__type_support.c
+[12.722s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_introspection_c.h
+[12.722s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__rosidl_typesupport_introspection_c.h
+[12.722s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__type_support.c
+[12.722s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg
+[12.722s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.722s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail
+[12.722s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__type_support.c
+[12.722s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__type_support.c
+[12.722s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__type_support.c
+[12.722s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__type_support.c
+[12.722s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__type_support.c
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__type_support.c
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__type_support.c
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__type_support.c
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__rosidl_typesupport_introspection_c.h
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__rosidl_typesupport_introspection_c.h
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__rosidl_typesupport_introspection_c.h
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__rosidl_typesupport_introspection_c.h
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__rosidl_typesupport_introspection_c.h
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__rosidl_typesupport_introspection_c.h
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__rosidl_typesupport_introspection_c.h
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__rosidl_typesupport_introspection_c.h
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__rosidl_typesupport_introspection_c.h
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__rosidl_typesupport_introspection_c.h
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__type_support.c
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__type_support.c
+[12.723s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__type_support.c
+[12.724s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__rosidl_typesupport_introspection_c.h
+[12.724s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__type_support.c
+[12.724s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h
+[12.724s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_introspection_c.h
+[12.724s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__type_support.c
+[12.724s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__type_support.c
+[12.724s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__rosidl_typesupport_introspection_c.h
+[12.724s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_introspection_c.so
+[12.724s] -- Set runtime path of "/home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_introspection_c.so" to ""
+[12.724s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_c.so
+[12.724s] -- Set runtime path of "/home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_c.so" to ""
+[12.724s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs
+[12.724s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv
+[12.725s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_introspection_cpp.hpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/vision_mode_switch__type_support.cpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__rosidl_typesupport_introspection_cpp.hpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/srv/detail/reset_motor_position__type_support.cpp
+[12.725s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg
+[12.725s] -- Up-to-date: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__rosidl_typesupport_introspection_cpp.hpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__rosidl_typesupport_introspection_cpp.hpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__rosidl_typesupport_introspection_cpp.hpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__rosidl_typesupport_introspection_cpp.hpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__type_support.cpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__rosidl_typesupport_introspection_cpp.hpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_buff__type_support.cpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__rosidl_typesupport_introspection_cpp.hpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__rosidl_typesupport_introspection_cpp.hpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dr16_receiver__type_support.cpp
+[12.725s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__rosidl_typesupport_introspection_cpp.hpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_result__type_support.cpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__rosidl_typesupport_introspection_cpp.hpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__rosidl_typesupport_introspection_cpp.hpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_command__type_support.cpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_cpp.hpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/game_status__type_support.cpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_introspection_cpp.hpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/field_events__type_support.cpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__type_support.cpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/client_receive__type_support.cpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/shoot_data__rosidl_typesupport_introspection_cpp.hpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid__type_support.cpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/bullet_remaining__type_support.cpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/dual_loop_pid_with_filter__type_support.cpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__type_support.cpp
+[12.726s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_status__type_support.cpp
+[12.727s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_position__type_support.cpp
+[12.727s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/include/sentry_msgs/sentry_msgs/msg/detail/robot_hp__rosidl_typesupport_introspection_cpp.hpp
+[12.727s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_introspection_cpp.so
+[12.727s] -- Set runtime path of "/home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[12.727s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_cpp.so
+[12.727s] -- Set runtime path of "/home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_typesupport_cpp.so" to ""
+[12.727s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/environment/pythonpath.sh
+[12.727s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/environment/pythonpath.dsv
+[12.727s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs-0.0.1-py3.10.egg-info
+[12.727s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[12.727s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/srv
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/srv/__init__.py
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/srv/_vision_mode_switch.py
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/srv/_vision_mode_switch_s.c
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/srv/_reset_motor_position_s.c
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/srv/_reset_motor_position.py
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/__init__.py
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_auto_aim_s.c
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_field_events_s.c
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_bullet_remaining_s.c
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_client_receive.py
+[12.728s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_robot_buff.py
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_dual_loop_pid_with_filter.py
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/__init__.py
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_auto_aim.py
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_dual_loop_pid.py
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_dr16_receiver_s.c
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_robot_hp_s.c
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_field_events.py
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_dual_loop_pid_s.c
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_game_result_s.c
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_game_status.py
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_robot_status.py
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_dr16_receiver.py
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_robot_buff_s.c
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_robot_position.py
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_robot_position_s.c
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_robot_status_s.c
+[12.729s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_shoot_data_s.c
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_client_receive_s.c
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_robot_hp.py
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_bullet_remaining.py
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_shoot_data.py
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_client_command_s.c
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_dual_loop_pid_with_filter_s.c
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_game_result.py
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_client_command.py
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_game_status_s.c
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/_sentry_msgs_s.ep.rosidl_typesupport_c.c
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/_sentry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/_sentry_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[12.730s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/libsentry_msgs__rosidl_generator_py.so
+[12.773s] Listing '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/__init__.py'...
+[12.773s] Listing '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/__init__.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_auto_aim.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_bullet_remaining.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_client_command.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_client_receive.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_dr16_receiver.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_dual_loop_pid.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_dual_loop_pid_with_filter.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_field_events.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_game_result.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_game_status.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_robot_buff.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_robot_hp.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_robot_position.py'...
+[12.773s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_robot_status.py'...
+[12.774s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/msg/_shoot_data.py'...
+[12.774s] Listing '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/srv'...
+[12.774s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/srv/__init__.py'...
+[12.774s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/srv/_reset_motor_position.py'...
+[12.774s] Compiling '/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/srv/_vision_mode_switch.py'...
+[12.776s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.776s] -- Set runtime path of "/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.777s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.777s] -- Set runtime path of "/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.777s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.777s] -- Set runtime path of "/home/nuc1/contact/sentry_msgs/install/sentry_msgs/local/lib/python3.10/dist-packages/sentry_msgs/sentry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.777s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_generator_py.so
+[12.777s] -- Set runtime path of "/home/nuc1/contact/sentry_msgs/install/sentry_msgs/lib/libsentry_msgs__rosidl_generator_py.so" to ""
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/DR16Receiver.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/GameStatus.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/GameResult.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/RobotHP.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/FieldEvents.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/RobotStatus.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/RobotPosition.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/RobotBuff.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/BulletRemaining.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/ClientCommand.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/ClientReceive.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/AutoAIM.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/DualLoopPIDWithFilter.idl
+[12.778s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/DualLoopPID.idl
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/ShootData.idl
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/srv/VisionModeSwitch.idl
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/srv/ResetMotorPosition.idl
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/DR16Receiver.msg
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/GameStatus.msg
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/GameResult.msg
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/RobotHP.msg
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/FieldEvents.msg
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/RobotStatus.msg
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/RobotPosition.msg
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/RobotBuff.msg
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/BulletRemaining.msg
+[12.779s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/ClientCommand.msg
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/ClientReceive.msg
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/AutoAIM.msg
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/DualLoopPIDWithFilter.msg
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/DualLoopPID.msg
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/msg/ShootData.msg
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/srv/VisionModeSwitch.srv
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/srv/VisionModeSwitch_Request.msg
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/srv/VisionModeSwitch_Response.msg
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/srv/ResetMotorPosition.srv
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/srv/ResetMotorPosition_Request.msg
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/srv/ResetMotorPosition_Response.msg
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/ament_index/resource_index/package_run_dependencies/sentry_msgs
+[12.780s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/ament_index/resource_index/parent_prefix_path/sentry_msgs
+[12.781s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/environment/ament_prefix_path.sh
+[12.781s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/environment/ament_prefix_path.dsv
+[12.781s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/environment/path.sh
+[12.781s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/environment/path.dsv
+[12.781s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/local_setup.bash
+[12.781s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/local_setup.sh
+[12.781s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/local_setup.zsh
+[12.781s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/local_setup.dsv
+[12.781s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/package.dsv
+[12.781s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/ament_index/resource_index/packages/sentry_msgs
+[12.781s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_generator_cExport.cmake
+[12.782s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.782s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[12.782s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.782s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_generator_cppExport.cmake
+[12.782s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.782s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.782s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.782s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.782s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_cExport.cmake
+[12.782s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.782s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.782s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_cppExport.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_generator_pyExport.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/export_sentry_msgs__rosidl_generator_pyExport-noconfig.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/rosidl_cmake-extras.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgsConfig.cmake
+[12.783s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/cmake/sentry_msgsConfig-version.cmake
+[12.784s] -- Installing: /home/nuc1/contact/sentry_msgs/install/sentry_msgs/share/sentry_msgs/package.xml
+[12.785s] Invoked command in '/home/nuc1/contact/sentry_msgs/build/sentry_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nuc1/contact/sentry_msgs/build/sentry_msgs

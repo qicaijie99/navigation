@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sentry_msgs/msg/GameStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sentry_msgs {
+  module msg {
+    module GameStatus_Constants {
+      const uint8 GAME_TYPE_RMUC = 1;
+      const uint8 GAME_TYPE_RMUT = 2;
+      const uint8 GAME_TYPE_RMUA = 3;
+      const uint8 GAME_TYPE_RMUL3V3 = 4;
+      const uint8 GAME_TYPE_RMUL1V1 = 5;
+      const uint8 PROGRESS_UNSTART = 0;
+      const uint8 PROGRESS_PREPARE = 1;
+      const uint8 PROGRESS_SELFCHECK = 2;
+      const uint8 PROGRESS_5SCOUNTDOWN = 3;
+      const uint8 PROGRESS_BATTLE = 4;
+      const uint8 PROGRESS_CALCULATING = 5;
+    };
+    @verbatim (language="comment", text=
+      "This message contains game status data received from the referee system")
+    struct GameStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "game type, see enum below")
+      uint8 game_type;
+
+      @verbatim (language="comment", text=
+        "game progress, see enum below")
+      uint8 game_progress;
+
+      @verbatim (language="comment", text=
+        "the remaining time of the current phase, in seconds")
+      uint16 stage_remain_time;
+
+      @verbatim (language="comment", text=
+        "unix timestamp")
+      uint64 sync_time_stamp;
+    };
+  };
+};

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_auto_aim_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_auto_aim_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_bullet_remaining_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_bullet_remaining_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_client_command_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_client_command_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_client_receive_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_client_receive_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_dr16_receiver_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_dr16_receiver_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_dual_loop_pid_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_dual_loop_pid_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_dual_loop_pid_with_filter_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_dual_loop_pid_with_filter_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_field_events_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_field_events_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_game_result_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_game_result_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_game_status_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_game_status_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_robot_buff_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_robot_buff_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_robot_hp_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_robot_hp_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_robot_position_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_robot_position_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_robot_status_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_robot_status_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_shoot_data_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/msg/_shoot_data_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/srv/_reset_motor_position_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/srv/_reset_motor_position_s.c.o.d"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/srv/_vision_mode_switch_s.c.o"
+  "CMakeFiles/sentry_msgs__rosidl_generator_py.dir/rosidl_generator_py/sentry_msgs/srv/_vision_mode_switch_s.c.o.d"
+  "rosidl_generator_py/sentry_msgs/libsentry_msgs__rosidl_generator_py.pdb"
+  "rosidl_generator_py/sentry_msgs/libsentry_msgs__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/sentry_msgs__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

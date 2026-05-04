@@ -1,0 +1,2 @@
+[console_scripts]
+udp_bridge_node = udp_bridge.udp_bridge_node:main

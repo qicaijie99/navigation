@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sentry_msgs/msg/ShootData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sentry_msgs {
+  module msg {
+    module ShootData_Constants {
+      const uint8 BULLET_TYPE_17MM = 1;
+      const uint8 BULLET_TYPE_42MM = 2;
+      const uint8 SHOOTER_ID_17MM_ID1 = 1;
+      const uint8 SHOOTER_ID_17MM_ID2 = 2;
+      const uint8 SHOOTER_ID_42MM_ID1 = 3;
+    };
+    @verbatim (language="comment", text=
+      "This message contains shoot data received from the referee system")
+    struct ShootData {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "bullet type, see enum below")
+      uint8 bullet_type;
+
+      @verbatim (language="comment", text=
+        "shooter id, see enum below")
+      uint8 shooter_id;
+
+      @verbatim (language="comment", text=
+        "bullet freq, in hz")
+      uint8 bullet_freq;
+
+      @verbatim (language="comment", text=
+        "bullet speed, in m/s")
+      float bullet_speed;
+    };
+  };
+};

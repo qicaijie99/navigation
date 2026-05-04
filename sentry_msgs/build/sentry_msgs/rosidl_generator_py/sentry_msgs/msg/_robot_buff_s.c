@@ -1,0 +1,187 @@
+// generated from rosidl_generator_py/resource/_idl_support.c.em
+// with input from sentry_msgs:msg/RobotBuff.idl
+// generated code does not contain a copyright notice
+#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+#include <Python.h>
+#include <stdbool.h>
+#ifndef _WIN32
+# pragma GCC diagnostic push
+# pragma GCC diagnostic ignored "-Wunused-function"
+#endif
+#include "numpy/ndarrayobject.h"
+#ifndef _WIN32
+# pragma GCC diagnostic pop
+#endif
+#include "rosidl_runtime_c/visibility_control.h"
+#include "sentry_msgs/msg/detail/robot_buff__struct.h"
+#include "sentry_msgs/msg/detail/robot_buff__functions.h"
+
+ROSIDL_GENERATOR_C_IMPORT
+bool std_msgs__msg__header__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * std_msgs__msg__header__convert_to_py(void * raw_ros_message);
+
+ROSIDL_GENERATOR_C_EXPORT
+bool sentry_msgs__msg__robot_buff__convert_from_py(PyObject * _pymsg, void * _ros_message)
+{
+  // check that the passed message is of the expected Python class
+  {
+    char full_classname_dest[38];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
+    }
+    assert(strncmp("sentry_msgs.msg._robot_buff.RobotBuff", full_classname_dest, 37) == 0);
+  }
+  sentry_msgs__msg__RobotBuff * ros_message = _ros_message;
+  {  // header
+    PyObject * field = PyObject_GetAttrString(_pymsg, "header");
+    if (!field) {
+      return false;
+    }
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
+  {  // robot_replenishing_blood
+    PyObject * field = PyObject_GetAttrString(_pymsg, "robot_replenishing_blood");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->robot_replenishing_blood = (Py_True == field);
+    Py_DECREF(field);
+  }
+  {  // shooter_cooling_acceleration
+    PyObject * field = PyObject_GetAttrString(_pymsg, "shooter_cooling_acceleration");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->shooter_cooling_acceleration = (Py_True == field);
+    Py_DECREF(field);
+  }
+  {  // robot_defense_bonus
+    PyObject * field = PyObject_GetAttrString(_pymsg, "robot_defense_bonus");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->robot_defense_bonus = (Py_True == field);
+    Py_DECREF(field);
+  }
+  {  // robot_attack_bonus
+    PyObject * field = PyObject_GetAttrString(_pymsg, "robot_attack_bonus");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->robot_attack_bonus = (Py_True == field);
+    Py_DECREF(field);
+  }
+
+  return true;
+}
+
+ROSIDL_GENERATOR_C_EXPORT
+PyObject * sentry_msgs__msg__robot_buff__convert_to_py(void * raw_ros_message)
+{
+  /* NOTE(esteve): Call constructor of RobotBuff */
+  PyObject * _pymessage = NULL;
+  {
+    PyObject * pymessage_module = PyImport_ImportModule("sentry_msgs.msg._robot_buff");
+    assert(pymessage_module);
+    PyObject * pymessage_class = PyObject_GetAttrString(pymessage_module, "RobotBuff");
+    assert(pymessage_class);
+    Py_DECREF(pymessage_module);
+    _pymessage = PyObject_CallObject(pymessage_class, NULL);
+    Py_DECREF(pymessage_class);
+    if (!_pymessage) {
+      return NULL;
+    }
+  }
+  sentry_msgs__msg__RobotBuff * ros_message = (sentry_msgs__msg__RobotBuff *)raw_ros_message;
+  {  // header
+    PyObject * field = NULL;
+    field = std_msgs__msg__header__convert_to_py(&ros_message->header);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "header", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // robot_replenishing_blood
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->robot_replenishing_blood ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "robot_replenishing_blood", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // shooter_cooling_acceleration
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->shooter_cooling_acceleration ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "shooter_cooling_acceleration", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // robot_defense_bonus
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->robot_defense_bonus ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "robot_defense_bonus", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // robot_attack_bonus
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->robot_attack_bonus ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "robot_attack_bonus", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+
+  // ownership of _pymessage is transferred to the caller
+  return _pymessage;
+}

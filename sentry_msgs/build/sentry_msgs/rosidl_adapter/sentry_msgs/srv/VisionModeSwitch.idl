@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from sentry_msgs/srv/VisionModeSwitch.srv
+// generated code does not contain a copyright notice
+
+
+module sentry_msgs {
+  module srv {
+    module VisionModeSwitch_Request_Constants {
+      const uint8 MODE_ARMOR = 1;
+      const uint8 MODE_SMALL = 2;
+      const uint8 MODE_BIG = 3;
+      const uint8 MODE_TAG = 4;
+    };
+    struct VisionModeSwitch_Request {
+      uint8 mode;
+    };
+    struct VisionModeSwitch_Response {
+      boolean succ;
+    };
+  };
+};

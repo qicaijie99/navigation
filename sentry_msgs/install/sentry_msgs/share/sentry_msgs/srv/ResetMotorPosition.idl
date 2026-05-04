@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from sentry_msgs/srv/ResetMotorPosition.srv
+// generated code does not contain a copyright notice
+
+
+module sentry_msgs {
+  module srv {
+    struct ResetMotorPosition_Request {
+      string motor_name;
+    };
+    struct ResetMotorPosition_Response {
+      boolean succ;
+    };
+  };
+};

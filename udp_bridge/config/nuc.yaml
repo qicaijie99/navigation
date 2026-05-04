@@ -1,0 +1,14 @@
+udp_bridge_node:
+  ros__parameters:
+    # Set to jetson host IP.
+    peer_ip: "192.168.1.50"
+    tx_port: 20000
+    rx_port: 20000
+    bind_ip: "0.0.0.0"
+
+    # Nuc role: receive /joint_states, send /autoaim/target.
+    send_joint_states: false
+    recv_joint_states: true
+    send_autoaim_target: true
+    recv_autoaim_target: false
+

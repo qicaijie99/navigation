@@ -177,11 +177,25 @@ namespace small_point_lio {
 
     void SmallPointLio::publish_odometry(double timestamp) {
         if (odometry_callback) {
+            Eigen::Matrix<state::value_type, 3, 1> position = estimator.kf.x.position;
+            Eigen::Matrix<state::value_type, 3, 3> rotation = estimator.kf.x.rotation;
+
+            if (parameters.publish_primary_lidar_pose) {
+                const Eigen::Matrix<state::value_type, 3, 1> lidar_T_wrt_IMU =
+                        (!parameters.lidar_T_wrt_IMU.empty() ? parameters.lidar_T_wrt_IMU.front() : parameters.extrinsic_T)
+                                .cast<state::value_type>();
+                const Eigen::Matrix<state::value_type, 3, 3> lidar_R_wrt_IMU =
+                        (!parameters.lidar_R_wrt_IMU.empty() ? parameters.lidar_R_wrt_IMU.front() : parameters.extrinsic_R)
+                                .cast<state::value_type>();
+                position += rotation * lidar_T_wrt_IMU;
+                rotation *= lidar_R_wrt_IMU;
+            }
+
             common::Odometry odometry;
             odometry.timestamp = timestamp;
-            odometry.position = estimator.kf.x.position.cast<double>();
+            odometry.position = position.cast<double>();
             odometry.velocity = estimator.kf.x.velocity.cast<double>();
-            odometry.orientation = estimator.kf.x.rotation.cast<double>();
+            odometry.orientation = Eigen::Quaterniond(rotation.cast<double>());
             odometry.angular_velocity = estimator.kf.x.omg.cast<double>();
             odometry_callback(odometry);
         }

@@ -44,7 +44,7 @@ small_point_lio:
     laser_map_topic: "Laser_map"
     path_topic: "path"
     odom_frame: "camera_init"
-    body_frame: "body"
+    body_frame: "front_mid360"
     tf_child_frame: "aft_mapped"
     save_pcd: False
     publish_tf: False
@@ -57,25 +57,25 @@ small_point_lio:
 
     check_satu: True
     init_map_size: 10
-    point_filter_num: 8                                 # Options: 4, 3
-    min_distance: 0.8
+    point_filter_num: 1
+    min_distance: 0.5
     max_distance: 300.0
     space_downsample: True
     space_downsample_leaf_size: 0.5
-    gravity: [ 0.6105204820632935, 0.00971906166523695, -0.7646457552909851 ]
-    fix_gravity_direction: False
+    gravity: [0.0, 0.0, -9.81]
+    fix_gravity_direction: True
     satu_acc: 4.0
     satu_gyro: 35.0
     acc_norm: 1.0
-    map_resolution: 1.0
+    map_resolution: 0.5
     extrinsic_est_en: False
     extrinsic_T: [-0.011, -0.02329, 0.04412]
     extrinsic_R: [1.0, 0.0, 0.0,
                   0.0, 1.0, 0.0,
                   0.0, 0.0, 1.0]
     laser_point_cov: 0.01
-    imu_meas_acc_cov: 0.1
-    imu_meas_omg_cov: 0.1
+    imu_meas_acc_cov: 0.01
+    imu_meas_omg_cov: 0.01
     velocity_cov: 20.0
     acceleration_cov: 500.0
     omg_cov: 1000.0
@@ -84,6 +84,7 @@ small_point_lio:
     plane_threshold: 0.1
     match_sqaured: 81.0
     publish_odometry_without_downsample: False
+    publish_primary_lidar_pose: True
 
     prior_pcd:
       enable: False
@@ -118,8 +119,8 @@ small_point_lio:
       match_s: 81.0
       ivox_grid_resolution: 1.0
 
-      gravity:      [ 0.6105204820632935, 0.00971906166523695, -0.7646457552909851 ] #[ 0.02947362 , 0.01101602 , 1.00043484 ]       # gravity to be aligned
-      gravity_init: [ 0.6105204820632935, 0.00971906166523695, -0.7646457552909851 ] #[ 0.02947362 , 0.01101602 , 1.00043484 ]       # preknown gravity in the first IMU body frame, use when imu_en is False or start from a non-stationary state
+      gravity:      [ 0.0, 0.0, -9.81 ]       # gravity magnitude used by small_point_lio; direction is aligned from initial IMU samples
+      gravity_init: [ 0.0, 0.0, -9.81 ]       # kept for point_lio-compatible parameter fallback
       extrinsic_T: [ -0.011, -0.02329, 0.04412 ]
       extrinsic_R: [ 1.0, 0.0, 0.0,
                      0.0, 1.0, 0.0,
@@ -145,7 +146,8 @@ small_point_lio:
 
 
     odometry:
-      publish_odometry_without_downsample: True
+      publish_odometry_without_downsample: False
+      publish_primary_lidar_pose: True
 
     publish:
       path_en: False                                    # False: close the path output

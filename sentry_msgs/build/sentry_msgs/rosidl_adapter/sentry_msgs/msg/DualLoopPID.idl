@@ -1,0 +1,79 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sentry_msgs/msg/DualLoopPID.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sentry_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains dual-loop PID controller data")
+    struct DualLoopPID {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "parameters")
+      double inner_kp;
+
+      double inner_ki;
+
+      double inner_kd;
+
+      double outer_kp;
+
+      double outer_ki;
+
+      double outer_kd;
+
+      @verbatim (language="comment", text=
+        "limitations")
+      double inner_max_out;
+
+      double inner_max_iout;
+
+      double outer_max_out;
+
+      double outer_max_iout;
+
+      @verbatim (language="comment", text=
+        "status")
+      double inner_set;
+
+      double inner_feedback;
+
+      double inner_error;
+
+      double inner_error_sum;
+
+      double inner_last_error;
+
+      double outer_set;
+
+      double outer_feedback;
+
+      double outer_error;
+
+      double outer_error_sum;
+
+      double outer_last_error;
+
+      @verbatim (language="comment", text=
+        "output")
+      double inner_pout;
+
+      double inner_iout;
+
+      double inner_dout;
+
+      double inner_out;
+
+      double outer_pout;
+
+      double outer_iout;
+
+      double outer_dout;
+
+      double outer_out;
+    };
+  };
+};

@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sentry_msgs/msg/RobotPosition.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sentry_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains robot position data received from the referee system")
+    struct RobotPosition {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "position, in meters")
+      float x;
+
+      float y;
+
+      float z;
+
+      @verbatim (language="comment", text=
+        "yaw angle in radius")
+      float yaw;
+    };
+  };
+};

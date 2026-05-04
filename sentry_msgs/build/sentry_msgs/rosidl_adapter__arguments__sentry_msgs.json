@@ -1,0 +1,22 @@
+{
+  "package_name": "sentry_msgs",
+  "non_idl_tuples": [
+    "/home/nuc1/contact/sentry_msgs:msg/DR16Receiver.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/GameStatus.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/GameResult.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/RobotHP.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/FieldEvents.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/RobotStatus.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/RobotPosition.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/RobotBuff.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/BulletRemaining.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/ClientCommand.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/ClientReceive.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/AutoAIM.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/DualLoopPIDWithFilter.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/DualLoopPID.msg",
+    "/home/nuc1/contact/sentry_msgs:msg/ShootData.msg",
+    "/home/nuc1/contact/sentry_msgs:srv/VisionModeSwitch.srv",
+    "/home/nuc1/contact/sentry_msgs:srv/ResetMotorPosition.srv"
+  ]
+}

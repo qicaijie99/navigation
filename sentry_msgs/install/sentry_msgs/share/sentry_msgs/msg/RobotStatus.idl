@@ -1,0 +1,87 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sentry_msgs/msg/RobotStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sentry_msgs {
+  module msg {
+    module RobotStatus_Constants {
+      const uint8 ROBOT_ID_RED1_HERO = 1;
+      const uint8 ROBOT_ID_RED2_ENGINEER = 2;
+      const uint8 ROBOT_ID_RED3_INFANTRY = 3;
+      const uint8 ROBOT_ID_RED4_INFANTRY = 4;
+      const uint8 ROBOT_ID_RED5_INFANTRY = 5;
+      const uint8 ROBOT_ID_RED6_AERIAL = 6;
+      const uint8 ROBOT_ID_RED7_SENTRY = 7;
+      const uint8 ROBOT_ID_RED8_DART = 8;
+      const uint8 ROBOT_ID_RED9_RADAR = 9;
+      const uint8 ROBOT_ID_BLUE1_HERO = 101;
+      const uint8 ROBOT_ID_BLUE2_ENGINEER = 102;
+      const uint8 ROBOT_ID_BLUE3_INFANTRY = 103;
+      const uint8 ROBOT_ID_BLUE4_INFANTRY = 104;
+      const uint8 ROBOT_ID_BLUE5_INFANTRY = 105;
+      const uint8 ROBOT_ID_BLUE6_AERIAL = 106;
+      const uint8 ROBOT_ID_BLUE7_SENTRY = 107;
+      const uint8 ROBOT_ID_BLUE8_DART = 108;
+      const uint8 ROBOT_ID_BLUE9_RADAR = 109;
+    };
+    @verbatim (language="comment", text=
+      "This message contains robot status data received from the referee system")
+    struct RobotStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "robot id, see enum below")
+      uint8 robot_id;
+
+      @verbatim (language="comment", text=
+        "robot level")
+      uint8 robot_level;
+
+      @verbatim (language="comment", text=
+        "robot remain hp")
+      uint16 remain_hp;
+
+      @verbatim (language="comment", text=
+        "robot max hp")
+      uint16 max_hp;
+
+      @verbatim (language="comment", text=
+        "17mm shooter 1 data, speed limit in m/s")
+      uint16 shooter_17mm_id1_cooling_rate;
+
+      uint16 shooter_17mm_id1_cooling_limit;
+
+      uint16 shooter_17mm_id1_speed_limit;
+
+      @verbatim (language="comment", text=
+        "17mm shooter 2 data, speed limit in m/s")
+      uint16 shooter_17mm_id2_cooling_rate;
+
+      uint16 shooter_17mm_id2_cooling_limit;
+
+      uint16 shooter_17mm_id2_speed_limit;
+
+      @verbatim (language="comment", text=
+        "42mm shooter 1 data, speed limit in m/s")
+      uint16 shooter_42mm_id1_cooling_rate;
+
+      uint16 shooter_42mm_id1_cooling_limit;
+
+      uint16 shooter_42mm_id1_speed_limit;
+
+      @verbatim (language="comment", text=
+        "chassis power limit, in watt")
+      uint16 chassis_power_limit;
+
+      @verbatim (language="comment", text=
+        "power output status")
+      boolean gimbal_power_output;
+
+      boolean chassis_power_output;
+
+      boolean shooter_power_output;
+    };
+  };
+};

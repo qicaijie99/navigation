@@ -155,6 +155,8 @@ namespace small_point_lio {
         // 数据发布
         publish_odometry_without_downsample = read_parameter<bool>(
                 node, "publish_odometry_without_downsample", false, "odometry.publish_odometry_without_downsample");
+        publish_primary_lidar_pose = read_parameter<bool>(
+                node, "publish_primary_lidar_pose", false, "odometry.publish_primary_lidar_pose");
     }
 
 }// namespace small_point_lio

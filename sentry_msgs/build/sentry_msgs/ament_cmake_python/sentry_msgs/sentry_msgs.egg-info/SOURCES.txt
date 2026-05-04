@@ -1,0 +1,6 @@
+setup.py
+sentry_msgs/__init__.py
+sentry_msgs.egg-info/PKG-INFO
+sentry_msgs.egg-info/SOURCES.txt
+sentry_msgs.egg-info/dependency_links.txt
+sentry_msgs.egg-info/top_level.txt
