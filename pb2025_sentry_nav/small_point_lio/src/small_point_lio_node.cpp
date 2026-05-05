@@ -173,9 +173,22 @@ namespace small_point_lio {
         const bool publish_registered_scan_body = get_bool_parameter(*this, "publish_registered_scan_body", false, "publish.scan_bodyframe_pub_en");
         const bool publish_effected_scan = get_bool_parameter(*this, "publish_effected_scan", true, "publish.scan_publish_en");
         const bool publish_laser_map = get_or_declare_bool_parameter(*this, "publish_laser_map", false);
+        const bool publish_primary_lidar_pose =
+                get_bool_parameter(*this, "publish_primary_lidar_pose", false, "odometry.publish_primary_lidar_pose");
         const float map_publish_resolution = get_or_declare_float_parameter(*this, "map_publish_resolution", 0.2f);
 
         small_point_lio = std::make_unique<small_point_lio::SmallPointLio>(*this);
+        RCLCPP_INFO(
+                this->get_logger(),
+                "small_point_lio I/O: lidar_topic=%s imu_topic=%s odometry=%s frame=%s child=%s "
+                "registered_scan=%s publish_primary_lidar_pose=%s",
+                lidar_topic.c_str(),
+                imu_topic.c_str(),
+                odometry_topic.c_str(),
+                odom_frame.c_str(),
+                body_frame.c_str(),
+                registered_scan_topic.c_str(),
+                publish_primary_lidar_pose ? "true" : "false");
         odometry_publisher = create_publisher<nav_msgs::msg::Odometry>(odometry_topic, 20);
         pointcloud_publisher = create_publisher<sensor_msgs::msg::PointCloud2>(registered_scan_topic, 20);
         pointcloud_body_publisher = create_publisher<sensor_msgs::msg::PointCloud2>(registered_scan_body_topic, 20);

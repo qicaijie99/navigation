@@ -36,6 +36,7 @@ LoamInterfaceNode::LoamInterfaceNode(const rclcpp::NodeOptions & options)
   this->get_parameter("lidar_frame", lidar_frame_);
 
   base_frame_to_lidar_initialized_ = false;
+  warned_lidar_pose_input_ = false;
 
   tf_buffer_ = std::make_unique<tf2_ros::Buffer>(this->get_clock());
   tf_listener_ = std::make_unique<tf2_ros::TransformListener>(*tf_buffer_);
@@ -72,6 +73,20 @@ void LoamInterfaceNode::odometryCallback(const nav_msgs::msg::Odometry::ConstSha
 {
   // NOTE: Input odometry message is based on the `lidar_odom`
   // Here we transform it to the `odom` frame
+  if (
+    !warned_lidar_pose_input_ && !msg->child_frame_id.empty() &&
+    msg->child_frame_id == lidar_frame_)
+  {
+    RCLCPP_WARN(
+      this->get_logger(),
+      "Input odometry child_frame_id is %s. This legacy interface expects the "
+      "LIO pose to use point_lio-compatible body/IMU semantics and applies the "
+      "LiDAR-to-base TF downstream. For small_point_lio, keep "
+      "publish_primary_lidar_pose=false unless this interface is changed too.",
+      lidar_frame_.c_str());
+    warned_lidar_pose_input_ = true;
+  }
+
   if (!base_frame_to_lidar_initialized_) {
     try {
       // `lidar_odom`/`camera_init` is the initial LiDAR frame. Capture this once and let

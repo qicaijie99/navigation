@@ -128,16 +128,33 @@ namespace small_point_lio {
 
     public:
         inline void setup_subscription(rclcpp::Node *node, const std::string &topic, std::function<void(const std::vector<common::Point> &)> callback) override {
+            const auto logger = node->get_logger();
+            const auto clock = node->get_clock();
             subscription = node->create_subscription<sensor_msgs::msg::PointCloud2>(
                     topic,
                     rclcpp::SensorDataQoS(),
-                    [callback](const sensor_msgs::msg::PointCloud2 &msg) {
+                    [callback, logger, clock](const sensor_msgs::msg::PointCloud2 &msg) {
                         sensor_msgs::PointCloud2ConstIterator<float> out_x(msg, "x");
                         sensor_msgs::PointCloud2ConstIterator<float> out_y(msg, "y");
                         sensor_msgs::PointCloud2ConstIterator<float> out_z(msg, "z");
                         const int tag_offset = detail::find_field_offset(msg, "tag");
                         const auto *timestamp_field = detail::find_field(msg, "timestamp");
                         const int lidar_id_offset = detail::find_field_offset(msg, "lidar_id");
+                        if (timestamp_field == nullptr) {
+                            RCLCPP_WARN_THROTTLE(
+                                    logger,
+                                    *clock,
+                                    2000,
+                                    "PointCloud2 input has no timestamp field; using header.stamp for every point.");
+                        }
+                        if (lidar_id_offset < 0) {
+                            RCLCPP_WARN_THROTTLE(
+                                    logger,
+                                    *clock,
+                                    2000,
+                                    "PointCloud2 input has no lidar_id field; assuming lidar_id=0 for all points. "
+                                    "Dual-lidar input must be muxed by dual_lidar_fuser first.");
+                        }
                         const double msg_time = rclcpp::Time(msg.header.stamp).seconds();
                         size_t size = msg.width * msg.height;
                         std::vector<common::Point> pointcloud;

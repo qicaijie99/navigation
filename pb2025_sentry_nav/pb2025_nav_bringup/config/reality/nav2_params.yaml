@@ -44,7 +44,11 @@ small_point_lio:
     laser_map_topic: "Laser_map"
     path_topic: "path"
     odom_frame: "camera_init"
-    body_frame: "front_mid360"
+    # Keep the odometry pose semantics compatible with the legacy point_lio
+    # pipeline: aft_mapped_to_init is the IMU/body pose in camera_init. The
+    # downstream loam_interface/sensor_scan_generation chain applies the
+    # LiDAR-to-robot TF itself.
+    body_frame: "body"
     tf_child_frame: "aft_mapped"
     save_pcd: False
     publish_tf: False
@@ -84,7 +88,7 @@ small_point_lio:
     plane_threshold: 0.1
     match_sqaured: 81.0
     publish_odometry_without_downsample: False
-    publish_primary_lidar_pose: True
+    publish_primary_lidar_pose: False
 
     prior_pcd:
       enable: False
@@ -147,7 +151,7 @@ small_point_lio:
 
     odometry:
       publish_odometry_without_downsample: False
-      publish_primary_lidar_pose: True
+      publish_primary_lidar_pose: False
 
     publish:
       path_en: False                                    # False: close the path output
